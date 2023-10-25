@@ -1,0 +1,62 @@
+.item-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  padding: 0;
+  width: 15%; /* Added % */
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Use rgba with color values */
+  border-radius: 4px;
+}
+
+.item-card__information {
+  padding: 6px 12px;
+  margin-top: 12px;
+}
+
+.title {
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.title h3 {
+  margin: 8px 0 14px;
+}
+
+.pricing small {
+  opacity: 0.5;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.pricing span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button.cart-add {
+  margin-top: auto;
+  cursor: pointer;
+  width: 100%;
+  background-color: var(--primary-color); /* Use CSS variables for colors */
+  border-radius: 0px 0px 4px 4px;
+  border: unset;
+  font-size: 14px;
+  padding: 8px 16px;
+  color: var(--white-color); /* Use CSS variables for colors */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Change background color to orange */
+  background-color: orange;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
